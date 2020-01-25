@@ -119,6 +119,6 @@ def adding_to_dennis
         }
      }
   target = programmer_hash[:dennis_ritchie][:languages]
-  programmer_hash[:dennis_ritchie][:languages] = target 
+  programmer_hash[:dennis_ritchie][:languages] = target.push("Assembly")
   programmer_hash
 end
